@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: grey;
+}
+
+.verde{
+    color: greenyellow
+}
+
+.caja{
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    height: 600px;
+    width: 500px;
+}
+
+.bar {
+    background-color: rgb(184, 184, 184);
+    border-radius: 20px 20px 0px 0px;
+    padding: 10px;
+}

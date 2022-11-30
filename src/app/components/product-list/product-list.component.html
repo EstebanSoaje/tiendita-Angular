@@ -1,0 +1,15 @@
+<h2>{{titulo}}</h2>
+<div class="productos">
+    <div *ngFor="let product of products">
+
+        <h3>
+            <a [title]="product.name + ' Detalles'">
+                {{ product.name }}
+            </a>
+        </h3>
+        <p *ngIf="product.description">
+            Description: {{ product.description }}
+        </p>
+
+      </div>
+</div>
